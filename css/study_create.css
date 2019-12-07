@@ -1,0 +1,185 @@
+.icon-create-study {
+    background-image: url(../images/icon/edit.png);
+    width: 50px;
+    height: 50px;
+}
+
+.table-indent {
+    padding: 0 40px;
+}
+
+.study-create .inner-box {
+    max-width: 684px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 룸 만들기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-create-box .flex-box {
+    justify-content: center;
+    align-items: baseline;
+}
+
+.study-create-box h2 {
+    margin-right: 10px;
+}
+
+.study-create-box span {
+    color: #3B5BA2;
+    font-weight: bold;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 기본 정보 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-info-box table {
+    table-layout: fixed;
+}
+.study-info-box table tr th {
+    font-weight: bold;
+    text-align: left;
+    min-width: 80px;
+}
+
+.study-info-box table tr td{
+    width: 100%;
+}
+
+.study-info-box table tr:nth-child(3) td{
+    padding-bottom: 10px;
+}
+
+.study-info-box table tr:nth-child(2) td{
+    padding: 20px 0 5px 0;
+
+    font-size: 0.9rem;
+    color: #3B5BA2;
+}
+
+.study-info-box input[type='text'] {
+    width: 100%;
+    max-width: 940px;
+}
+
+.study-info-box select {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.study-info-box .select-date div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.study-info-box .select-date select {
+    margin-right: 2px;
+}
+
+.study-info-box .select-date select:not(:last-child) {
+    margin-right: 2px;
+}
+
+.study-info-box .select-date select:first-child {
+    width: 80px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 방식 선택
+//
+//----------------------------------------------------------------------------------
+*/
+.study-method-box .sub-section-title {
+    margin-right: 20px;
+}
+.study-method-box .study-method-title {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.study-method-box .study-method-title > div {
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.study-method-box .study-method-title > div div:not(:last-child) {
+    padding-right: 40px;
+}
+
+.study-method-box ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.study-method-box ul li {
+    margin-bottom: 10px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 추가 정보
+//
+//----------------------------------------------------------------------------------
+*/
+.study-option-box table {
+    table-layout: fixed;
+}
+.study-option-box table tr th {
+    font-weight: bold;
+    text-align: left;
+    min-width: 80px;
+}
+
+.study-option-box table tr td{
+    width: 100%;
+}
+
+.study-option-box table td{
+    padding-bottom: 10px;
+}
+
+.study-option-box input[type='text'] {
+    width: 100%;
+    max-width: 940px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 모집 조건 
+//
+//----------------------------------------------------------------------------------
+*/
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 상세 설명
+//
+//----------------------------------------------------------------------------------
+*/
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 신청 페이지 버튼 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-create-btn-box .flex-box {
+    justify-content: center;
+}
+
+.study-create-btn-box .flex-box input:not(:last-child) {
+    margin-right: 10px;
+}
