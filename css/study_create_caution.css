@@ -1,12 +1,3 @@
-
-.table-indent {
-    padding: 0 40px;
-}
-
-.study-guide .inner-box {
-    max-width: 684px;
-}
-
 /*
 //----------------------------------------------------------------------------------
 //
@@ -15,55 +6,24 @@
 //----------------------------------------------------------------------------------
 */
 .study-guide-box .flex-box {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.flex-box .tg {
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
-.flex-box .tg div{
-    padding-top: 5px;
-    margin-bottom: 5px;
-}
-
-.study-guide-box h2 {
-
-    margin-right: 10px;
-}
-
-.section-discription {
-    font-size: 1.2rem;
-    font-weight: bold;
+.study-guide-box .section-discription {
+    font-size: 1.1rem;
     line-height: 1.5rem;
-    
-}
-
-/*
-//----------------------------------------------------------------------------------
-//
-// 스터디 신청 페이지 버튼 
-//
-//----------------------------------------------------------------------------------
-*/
-.study-guide-btn-box .flex-box {
-    justify-content: center;
-}
-
-.study-guide-btn-box .flex-box input:not(:last-child) {
+    text-align: left;
     margin-right: 10px;
+    padding-left: 20px;
 }
 
-.study-guide-btn-box .my-btn {
-    width: 150px;
-    font-size: 2rem;
+.study-guide-box .btn-box {
+    padding-bottom: 40px;
 }
 
-.study-guide-box {
-    padding-top: 60px;
+.study-guide-box .btn-box input:not(:last-child) {
+    margin-right: 5px;
 }
 
 
