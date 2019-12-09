@@ -1,0 +1,61 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 모집 상세 보기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-list-detail .inner-box .board > h2
+, .study-list-detail .inner-box .board > div:not(:last-child) {
+    border-bottom: 3px solid #DFE1E4;
+    padding: 15px 5px;
+}
+
+.study-list-detail .inner-box .board > h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.study-list-detail .board .flex-box {
+    justify-content: space-between;
+}
+
+.study-list-detail .board .flex-box h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.study-list-detail .recruit-info span {
+    line-height: 1.6rem;
+}
+
+.study-list-detail .recruit-info > span:first-child {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(87, 86, 86);
+}
+
+.study-list-detail .recruit-info > div > span:first-child::after {
+    content: '|';
+    margin: 0 5px;
+    font-size: 0.9rem;
+    vertical-align: top;
+}
+
+.study-list-detail .board > div > h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.study-list-detail p {
+    line-height: 1.3rem;
+}
+
+.study-list-detail .inner-box .contents-box div.recruit-detail-info {
+    padding-bottom: 40px;
+}
+
+.study-list-detail input[value="신청하기"] {
+    margin-right: 5px;
+}
