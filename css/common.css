@@ -212,7 +212,101 @@
 .note-my-custom .note-editor strike {
 	text-decoration: line-through;
 }
+/*
+//----------------------------------------------------------------------------------
+//
+// 토글 버튼 스타일
+//
+//----------------------------------------------------------------------------------
+*/
 
+.tgl-skewed {
+    display: none;
+}
+
+:after, :before, *, *:after, *:before, .tgl-btn {
+    box-sizing: border-box;
+}
+
+::selection, :after::selection, :before::selection, *::selection, 
+*:after::selection, *:before::selection, .tgl-btn::selection {
+    background: none;
+}
+
+.tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    margin: 20px;
+}
+.tgl-btn:after, .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+.tgl-btn:after {
+    left: 0;
+}
+.tgl-btn:before {
+    display: none;
+}
+:checked + .tgl-btn:after {
+    left: 50%;
+}
+
+.tgl-skewed + .tgl-btn {
+    overflow: hidden;
+    transform: skew(-10deg);
+    backface-visibility: hidden;
+    transition: all 0.2s ease;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.5rem;
+    background: #DFE1E4;
+}
+.tgl-skewed + .tgl-btn:after, .tgl-skewed + .tgl-btn:before {
+    transform: skew(10deg);
+    display: inline-block;
+    transition: all 0.2s ease;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    line-height: 2em;
+    font-weight: bold;
+    color: #2E323C;
+}
+.tgl-skewed + .tgl-btn:after {
+    left: 100%;
+    content: attr(data-tg-on);
+}
+.tgl-skewed + .tgl-btn:before {
+    left: 0;
+    content: attr(data-tg-off);
+}
+.tgl-skewed + .tgl-btn:active {
+    background: #DFE1E4;
+}
+.tgl-skewed + .tgl-btn:active:before {
+    left: -10%;
+}
+.tgl-skewed:checked + .tgl-btn {
+    background: #FFC267;
+}
+.tgl-skewed:checked + .tgl-btn:before {
+    left: -100%;
+}
+.tgl-skewed:checked + .tgl-btn:after {
+    left: 0;
+}
+.tgl-skewed:checked + .tgl-btn:active:after {
+    left: 10%;
+}
+	
 /*
 //----------------------------------------------------------------------------------
 //

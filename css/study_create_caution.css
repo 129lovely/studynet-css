@@ -15,21 +15,32 @@
 //----------------------------------------------------------------------------------
 */
 .study-guide-box .flex-box {
-    justify-content: center;
-    align-items: baseline;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-box .tg {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.flex-box .tg div{
+    padding-top: 5px;
+    margin-bottom: 5px;
 }
 
 .study-guide-box h2 {
+
     margin-right: 10px;
 }
 
-.study-guide-box p {
-
+.section-discription {
+    font-size: 1.2rem;
     font-weight: bold;
+    line-height: 1.5rem;
     
 }
-
-
 
 /*
 //----------------------------------------------------------------------------------
@@ -46,8 +57,14 @@
     margin-right: 10px;
 }
 
+.study-guide-btn-box .my-btn {
+    width: 150px;
+    font-size: 2rem;
+}
 
-
+.study-guide-box {
+    padding-top: 60px;
+}
 
 
 

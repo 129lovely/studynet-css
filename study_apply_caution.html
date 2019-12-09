@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>스터디 참가 신청하기</title>
 	
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
-	<link type="text/css" rel="stylesheet" href="css/study_apply.css" />
+	<link type="text/css" rel="stylesheet" href="css/study_apply_caution.css" />
 	<link type="text/css" rel="stylesheet" href="css/reset.css" />
 	
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
@@ -21,15 +21,15 @@
 			<div class="inner-box">
 				<div class="contents-box">
 					<div class="line-bottom">
+						<h3 class="section-title tac">스터디 참가 신청하기</h3>
 						<div class="flex-box">
-							<h3 class="section-title tal">스터디 참가 신청하기</h3>
+							<p class="section-discription tal">
+								<a class="section-discription" href="#">[오프라인] 한 달만에 Python 마스터하기!!</a> <br>
+								위의 스터디에 참가하시려는게 맞나요?<br>
+								선택하신 스터디에 참가 신청을 하시려면<br>
+								아래 문항을 잘 읽고 모두 체크를 하신 뒤, 신청하기를 눌러주세요.
+							</p>
 						</div>
-						<p class="tal">
-							[오프라인] 한 달만에 Python 마스터하기!!<br>
-							위의 스터디에 참가하시려는게 맞나요?<br>
-							선택하신 스터디에 참가 신청을 하시려면<br>
-							아래 문항을 잘 읽고 모두 체크를 하신 뒤, 신청하기를 눌러주세요.
-						</p>
 					</div>
 				</div>
 			</div>
@@ -40,36 +40,43 @@
 			<div class="inner-box">
 				<div class="contents-box">
 					<h2 class="sub-section-title"></h2>
-					<div class=>
-						<table class = " tal">
-							<tr>
-								<th>1. 모집 조건과 세부정보를 꼼꼼이 확인하셨나요?	</th>
-								<td>
-								<div class='toggleBG'>
-									<button class='toggleFG'></button>
-								</div>
-								</td>
-							<tr>
-								<th>2. 회원님의 기본정보(이름, 이메일, 직업, 지역)가 <br>
-										개설자에게 함께 전송됩니다. 동의하시나요?  </th>
-								<td>
-									<div class='toggleBG'>
-										<button class='toggleFG'></button>
-									</div>
-								</td>													
-							</tr>
-							<tr>
-								<th>3. 신청이 승인되기 전까지 취소가 가능합니다.<br> 
-									승인된 후에는 사이트를 통해서가 아니라,<br>
-									직접 개설자와 대화 후 취소하기 바랍니다.	
-								<td>
-									<div class='toggleBG'>
-										<button class='toggleFG'></button>
-									</div>
-								</td>											
-							</tr>
-
-						</table>
+					<div class= "line-bottom">
+						<div class= "flex-box">
+							<table class = "section-discription tal">
+								<tr class="flex-box">
+									<th>1. 모집 조건과 세부 정보 등을 꼼꼼히 확인하셨나요?	</th>
+									<td>
+										<div>
+											<input type="checkbox" id="cb1" class=tgl-skewed>
+											<label class="tgl-btn" data-tg-off="미확인" data-tg-on="확인" for="cb1"></label>
+										</div>
+									</td>
+								<tr class="flex-box">
+									<th>
+										2. 회원님의 이름, 이메일, 전화 번호, 직업, 지역이 <br>
+											개설자에게 함께 전송됩니다. 동의하시나요?  
+									</th>
+									<td>
+										<div>
+											<input type="checkbox" id="cb2" class=tgl-skewed>
+											<label class="tgl-btn" data-tg-off="미확인" data-tg-on="확인" for="cb2"></label>
+										</div>
+									</td>													
+								</tr>
+								<tr class="flex-box">
+									<th>
+										3. 신청이 승인되기 전까지 취소가 가능합니다.<br> 
+										승인된 후에는 사이트를 통해서가 아니라,<br>
+										직접 개설자와 대화 후 취소하기 바랍니다.	
+									<th>
+									<td>
+										<div>
+										<input type="checkbox" id="cb3" class=tgl-skewed>
+										<label class="tgl-btn" data-tg-off="미확인" data-tg-on="확인" for="cb3"></label>
+									</td>											
+								</tr>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>	
@@ -79,8 +86,8 @@
 		<div class="study-apply-btn-box mb20">
 			<div class="inner-box">
 				<div class="contents-box flex-box">
-					<input class="btn black-white" type="button" value="신청하기" />
-					<input class="btn black-white" type="button" value="취소하기" />
+					<input class="my-btn black-white" type="button" value="신청하기" />
+					<input class="my-btn black-white" type="button" value="취소하기" />
 				</div>
 			</div>
 		</div>

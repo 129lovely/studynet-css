@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>스터디 룸 생성 안내</title>
 	
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
-	<link type="text/css" rel="stylesheet" href="css/study_guide.css" />
+	<link type="text/css" rel="stylesheet" href="css/study_create_caution.css" />
 	<link type="text/css" rel="stylesheet" href="css/reset.css" />
 	
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
@@ -20,21 +20,27 @@
 			<div class="inner-box">
 				<div class="contents-box">
 					<div class="line-bottom">
-						<div class="flex-box">
-							<h2 class="section-title tac">스터디룸 생성 안내</h2>
+							<h2 class="section-title blue tac">스터디룸 생성 안내</h2>
+							<div class="flex-box">
+							<div class="section-discription tal">
+								생성된 스터디룸은  마이페이지에서 관리할 수 있습니다. <br>
+								대기 중인 신청 인원이 있을 경우 글을 수정할 수 없고, <br>
+								참여 인원이 0명일 경우에만 모집글을 삭제하실 수 있습니다.<br><br>
+
+								스터디 신청이 들어오면 스터디 관리 - 인원 관리에서 <br>
+								신청을 승인하거나 거절할 수 있습니다.	
+							</div>
+							<div class="tg">
+								<div>
+								<input type="checkbox" id="cb1" class=tgl-skewed>
+								<label class="tgl-btn" data-tg-off="미확인" data-tg-on="확인" for="cb1"></label>
+								</div>
+								<div>
+								<input type="checkbox" id="cb2" class=tgl-skewed>
+								<label class="tgl-btn" data-tg-off="미확인" data-tg-on="확인" for="cb2"></label>
+								</div>
+							</div>
 						</div>
-						<p class="tal">
-							생성된 스터디룸은  마이페이지에서 관리할 수 있으며 
-							인원이 1명이라도 모집되면 모집글을 수정하거나 삭제 
-							하실 수 없습니다.<br><br>
-
-							스터디 신청이 들어오면 스터디 관리 - 인원 관리에서 
-							신청을 승인하거나 거절할 수 있습니다.	<br><br>
-
-							스터디가 시작되기 전에 꼭 스터디 관리에서 오픈카톡 
-							주소를 추가해주시기 바랍니다. 스터디 모집이 종료된 
-							스터디 룸에 오픈 카톡 정보가 없을 경우 삭제될 수 있습니다. <br>
-						</p>
 					</div>
 				</div>
 			</div>
@@ -44,8 +50,8 @@
 		<div class="study-guide-btn-box mb20">
 			<div class="inner-box">
 				<div class="contents-box flex-box">
-					<input class="btn black-white" type="button" value="등록" />
-					<input class="btn black-white" type="button" value="취소" />
+					<input class="my-btn black-white" type="button" value="등록" />
+					<input class="my-btn black-white" type="button" value="취소" />
 				</div>	
 			</div>
 		</div>
