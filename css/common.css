@@ -18,6 +18,21 @@
 //
 //----------------------------------------------------------------------------------
 */
+.body-bgcolor-set {
+    background-color: #DFE1E4;
+}
+
+.body-bgcolor-set .inner-box {
+    max-width: 684px;
+}
+
+.body-bgcolor-set > div {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
 .inner-box {
     max-width: 1140px;
 	margin: 0 auto;
@@ -62,6 +77,10 @@
 
 .tal {
     text-align: left;
+}
+
+.table-indent {
+    padding: 0 40px;
 }
 
 /*
@@ -118,6 +137,65 @@
 /*
 //----------------------------------------------------------------------------------
 //
+// summernote 스타일
+//
+//----------------------------------------------------------------------------------
+*/
+.note-toolbar .note-btn-group button{
+	font-size: 0.8rem;
+}
+
+.note-editor.note-frame .note-placeholder {
+	padding: 15px 20px;
+	line-height: 1.5rem;
+	color: gray;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+	padding: 20px;
+	background-color: #eef3fa;
+}
+
+.note-editor.note-frame {
+	border: 3px solid #DFE1E4;
+	background-color: #eef3fa;
+}
+
+.panel-default > .panel-heading {
+	border: none;
+	background-color: #DFE1E4;
+}
+
+.note-editor.note-frame .note-statusbar {
+	background-color: #DFE1E4;
+}
+
+.note-my-custom .note-editor * {
+	color: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+}
+
+.note-my-custom .note-editor b {
+	font-weight: bold;
+}
+
+.note-my-custom .note-editor i {
+	font-style: italic;
+}
+
+.note-my-custom .note-editor u {
+	text-decoration: underline;
+}
+
+.note-my-custom .note-editor strike {
+	text-decoration: line-through;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
 // select 박스, input 박스, textarea 스타일
 //
 //----------------------------------------------------------------------------------
@@ -152,7 +230,7 @@ textarea {
 //
 //----------------------------------------------------------------------------------
 */
-.btn {
+.my-btn {
     display: inline-block;
     padding: 6px 20px 3px;
     
@@ -164,24 +242,24 @@ textarea {
    	border-radius: 10px;
 }
 
-.btn.select {
+.my-btn.select {
 	display: inline-block;
 	width: 110px;
 	height: 45px;
-    padding: 10px 0;
+    padding: 12px 0 10px 0;
 }
 
-.btn.black-white {
+.my-btn.black-white {
 	background-color: #2E323C;
 	color: #DFE1E4;
 }
 
-.btn.yellow-black {
+.my-btn.yellow-black {
 	background-color: #FEC46E;
 	color: #383B46;
 }
 
-.btn.blue-white {
+.my-btn.blue-white {
 	background-color: #3B5BA2;
 	color: #EFF4FA;
 }
@@ -247,6 +325,12 @@ textarea {
 	background-image: url(../images/icon/event02.png);
     width: 400px;
 	height: 180px;
+}
+
+.icon-create-study {
+    background-image: url(../images/icon/edit.png);
+    width: 50px;
+    height: 50px;
 }
 
 /*

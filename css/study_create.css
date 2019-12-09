@@ -1,17 +1,3 @@
-.icon-create-study {
-    background-image: url(../images/icon/edit.png);
-    width: 50px;
-    height: 50px;
-}
-
-.table-indent {
-    padding: 0 40px;
-}
-
-.study-create .inner-box {
-    max-width: 684px;
-}
-
 /*
 //----------------------------------------------------------------------------------
 //
@@ -122,6 +108,15 @@
 
 .study-method-box ul li {
     margin-bottom: 10px;
+}
+
+.study-method-box ul li span {
+    transition: all 0.25s;
+}
+
+.study-method-box ul li span:hover {
+    background-color: #3B5BA2;
+	color: #EFF4FA;
 }
 
 /*
