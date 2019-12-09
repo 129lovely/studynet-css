@@ -9,7 +9,7 @@
 	남색: #32539D
 	개나리색: #FFC267
 	연한 회색: #DFE1E4 (테두리, input박스)
-	거의 흰색: #EFF4FA
+	연하늘: #eef3fa
 */
 
 /*
@@ -19,24 +19,19 @@
 //
 //----------------------------------------------------------------------------------
 */
-body {
-	background: #32539D;
-}
-
 .body-bgcolor-set {
-	background: #32539D;
-
+    background-color: #DFE1E4;
 }
 
 .body-bgcolor-set .inner-box {
-	max-width: 684px;
+    max-width: 684px;
 }
 
 .body-bgcolor-set > div {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .inner-box {
@@ -46,6 +41,11 @@ body {
 
 .contents-box {
 	padding: 0 20px;
+}
+
+.contents-box.board {
+	max-width: 684px;
+	margin: 0 auto;
 }
 
 .contents-box .line-bottom {
@@ -71,15 +71,17 @@ body {
 	font-weight: bold;
 	margin-bottom: 10px;
 }
+
 .sub-section-title {
 	font-size: 2rem;
 	font-family: 'Black Han Sans', sans-serif;
 	color: #3B5BA2;
+	padding-bottom: 15px;
 }
 
- .sub-section-title.black {
+.sub-section-title.black {
 	color: #2E323C;
- }
+}	
 
 .flex-box {
 	display: flex;
@@ -232,7 +234,6 @@ input[type="text"]
 	border: none;
 	border-radius: 10px;
 	padding: 10px 20px;
-	text-align: center;
 }
 
 textarea {
@@ -256,7 +257,8 @@ textarea {
     
 	font-family: 'Black Han Sans', sans-serif;
 	font-size: 1.5rem;
-    text-align: center;
+	text-align: center;
+	line-height: normal;
     
     border: none;
    	border-radius: 10px;
@@ -266,23 +268,33 @@ textarea {
 	display: inline-block;
 	width: 110px;
 	height: 45px;
-    padding: 12px 0 10px 0;
+    padding: 10px 0;
 }
 
 .my-btn.black-white {
 	background-color: #2E323C;
 	color: #DFE1E4;
+	transition: all 0.25s;
+}
+
+.my-btn.my-btn.black-white:hover {
+	background-color: #3B5BA2;
+	color: #EFF4FA;
 }
 
 .my-btn.yellow-black {
 	background-color: #FEC46E;
 	color: #383B46;
+	transition: all 0.25s;
 }
 
 .my-btn.blue-white {
 	background-color: #3B5BA2;
 	color: #EFF4FA;
+	transition: all 0.25s;
 }
+
+
 
 /*
 //----------------------------------------------------------------------------------
@@ -441,24 +453,30 @@ textarea {
 	height: 100px;
 	padding-top: 60px;
 	background: rgba(238, 243, 250, 0.8);
+
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .header-box .mobile-main-menu-dropbox {
 	display: none;
 	padding: 6px 20px;
 	background: #FFC267;
 	background: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .header-box .mobile-main-menu-dropbox ul {
 	justify-content: center;
 }
+
 .header-box .mobile-main-menu-dropbox ul li:not(:last-child) {
 	margin-right: 20px;
 }
+
 .header-box .mobile-main-menu-dropbox ul li span {
 	font-size: 1.5rem;
 	font-family: 'Black Han Sans', sans-serif;
 }
+
 @media(max-width:700px){
     .header-box .main-menu {
     	display: none;
