@@ -1,36 +1,22 @@
-.table-indent {
-    padding: 0 40px;
-}
-
-.study-join {
-    max-width: 684px;
-    margin: auto;
-}
-
 /*
 //----------------------------------------------------------------------------------
 //
-// 스터디넷 회원가입 맨 위 문구
+// 스터디넷 회원가입
 //
 //----------------------------------------------------------------------------------
 */
+.study-join .contents-box .join-description {
+    align-items: baseline;
+    justify-content: center;
+}
 
-.study-join-box h2.section-title{
+.study-join .contents-box .join-description h2 {
     margin-right: 10px;
     color: #3B5BA2;
 }
-.study-join-box .flex-box {
-    justify-content: center;
-    align-items: baseline;
 
-}
-
-.study-join-box p {
-    color: black;
-}
-
-.study-join-box .line-bottom {
-    padding-bottom: 0px;
+.study-join .line-bottom {
+    padding: 0px;
 }
 
 /*
@@ -40,55 +26,48 @@
 //
 //----------------------------------------------------------------------------------
 */
-
-.study-join-form-box table {
-    table-layout: fixed;
-    align-content: center;
+.study-join .study-join-form {
+    margin: 0 auto;
 }
-.study-join-form-box table tr th {
+.study-join .study-join-form table tr th {
     font-weight: bold;
     text-align: right;
     min-width: 120px;
-    padding: 2%;
+    padding-right: 10px;
+    vertical-align: middle;
 }
 
-.study-join-form-box table tr td{
+.study-join .study-join-form tr td{
     width: 100%;
     margin-left: 20px;
-    padding: 2%;
+    padding: 10px;
+    vertical-align: middle;
 }
 
-.study-join-form-box input[type='text'],[type='password'] {
+.study-join .study-join-form input[type='text']
+, .study-join .study-join-form input[type='password'] {
     width: 100%;
-    max-width: 1000px;
 }
 
-.study-join-form-box input[type="radio"] {
-   margin-left: 12px;
+.study-join .study-join-form .join-radio-box > div {
+   margin-right: 5px;
+   display: inline-block;
 }
 
-.study-join-form-box .select-region div {
+.study-join .study-join-form .select-region div {
     display: inline-block;
     margin-right: 30px;
 }
 
 
-.study-join-form-box .select-region select {
+.study-join .study-join-form .select-region select {
     width: 100px;
 }
 
-.study-join-form-box .my_btn {
-
-    vertical-align: text-bottom;
+.study-join .study-join-form input[value="가입하기"] {
+    margin-right: 5px;
 }
 
-.study-join-form-box .study-join-btn-box{
-    width: 100%;
-    display: flex;
-}
-
-.study-join-form-box .study-join-btn-box .my-btn{
-    margin-top: 10px;
-    border-radius: 3px;
-   
+.study-join .study-join-form tr:last-child {
+    height: 150px;
 }
