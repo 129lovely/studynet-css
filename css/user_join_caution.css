@@ -1,0 +1,60 @@
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 약관 동의 페이지
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-useRule {
+    padding: 20 40px;
+}
+
+.study-useRule .inner-box {
+    max-width: 684px;
+}
+
+.study-useRule-box .flex-box {
+    justify-content: center;
+    align-items: baseline;
+}
+
+.study-rules-box {
+    padding-top: 30px;
+    margin-top: 20px;
+    background: #EFF4FA;
+}
+
+.study-useRule-box h2 {
+    margin-right: 10px;
+    color: #3B5BA2;
+}
+
+.study-useRule-box span {
+    color: #3B5BA2;
+    font-weight: bold;
+}
+
+.study-rules-box .checkbox_right{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    
+}
+
+.study-useRule-btn { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: right;
+    display: flex;
+    background: #EFF4FA;
+}
+
+.study-rules-box textarea {
+        border: 3px solid #DFE1E4;
+        width: 100%;
+        height: 200px;
+        background-color: #ffffff;
+        padding: 20px;
+}

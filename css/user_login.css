@@ -1,0 +1,96 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 로그인 페이지
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-login { 
+    padding: 60px 40px;
+}
+
+.table-indent {
+    padding: 0 40px;
+}
+
+.study-login .inner-box {
+    max-width: 684px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 페이지 제목 문구
+//
+//----------------------------------------------------------------------------------
+*/
+.study-login-box .flex-box{
+    justify-content: center;
+}
+
+.study-login-box .black-bottom-line{
+    border-bottom: solid 3px #2E323C;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+
+.study-login-box h2.section-title {
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 페이지 버튼 ( 회원 가입, 카카오톡 로그인 )
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-log-btn-box .flex-box{
+    justify-content: center;
+}
+
+.study-log-btn-box .inner-box .flex-box input{
+    margin-right: 20px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 로그인 input
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-log-box input{
+    margin: 5px;
+}
+
+.log-input {
+    display: flex;
+    justify-content: center;
+}
+
+.log-input .flex-box {
+    align-items: center;
+}
+
+.log-input .my-btn{
+    width: 120px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.log-input a{
+    text-decoration:underline;
+}
+
+.log-input a{
+    text-decoration:underline;
+}
+
+.link_find{
+    margin-top: 15px;
+}

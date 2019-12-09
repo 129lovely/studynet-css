@@ -1,0 +1,94 @@
+.table-indent {
+    padding: 0 40px;
+}
+
+.study-join {
+    max-width: 684px;
+    margin: auto;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디넷 회원가입 맨 위 문구
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-join-box h2.section-title{
+    margin-right: 10px;
+    color: #3B5BA2;
+}
+.study-join-box .flex-box {
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.study-join-box p {
+    color: black;
+}
+
+.study-join-box .line-bottom {
+    padding-bottom: 0px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 테이블
+//
+//----------------------------------------------------------------------------------
+*/
+
+.study-join-form-box table {
+    table-layout: fixed;
+    align-content: center;
+}
+.study-join-form-box table tr th {
+    font-weight: bold;
+    text-align: right;
+    min-width: 120px;
+    padding: 2%;
+}
+
+.study-join-form-box table tr td{
+    width: 100%;
+    margin-left: 20px;
+    padding: 2%;
+}
+
+.study-join-form-box input[type='text'],[type='password'] {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.study-join-form-box input[type="radio"] {
+   margin-left: 12px;
+}
+
+.study-join-form-box .select-region div {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.study-join-form-box .select-region select {
+    width: 100px;
+}
+
+.study-join-form-box .my_btn {
+
+    vertical-align: text-bottom;
+}
+
+.study-join-form-box .study-join-btn-box{
+    width: 100%;
+    display: flex;
+}
+
+.study-join-form-box .study-join-btn-box .my-btn{
+    margin-top: 10px;
+    border-radius: 3px;
+   
+}
