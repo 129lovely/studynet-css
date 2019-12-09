@@ -1,0 +1,113 @@
+.paging-box a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.25s;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.paging-box a:hover {
+    color: #FFC267;
+}
+
+.paging-box a:first-child::before {
+    content: '<';
+}
+
+.paging-box a:last-child::before {
+    content: '>';
+}
+
+.paging-box a:not(:last-child) {
+    margin-right: 10px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 원하는 스터디 검색하기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-search-page .search-box {
+    width: 100%;
+    background-color: #FFC267;
+    padding: 0 20px;
+}
+
+.study-search-page .search-box > div {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.study-search-page .search-box .section-title {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.study-search-page .search-box input[type="button"]:not(:last-child)
+, .study-search-page .search-box input[type="text"]
+, .study-search-page .search-box select {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 검색 결과
+//
+//----------------------------------------------------------------------------------
+*/
+.study-search-page .search-result-box {
+    max-width: 684px;
+    margin: 0 auto;
+}
+
+.study-search-page .search-result-box > div > p {
+    padding-left: 5px;
+}
+
+.study-search-page .search-result-box ul li {
+	border: 3px solid #DFE1E4;
+	border-radius: 10px;
+   
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.study-search-page .search-result-box ul li > span {
+    flex-shrink: 0;
+}
+
+.study-search-page .search-result-box ul li > div {
+    padding: 5px 20px 0 10px;
+}
+
+.study-search-page .search-result-box ul li h3 {     
+	font-weight: bold;
+	padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box ul li h3 span {     
+	font-weight: bold;
+	padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box ul li p { 
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box > div > span {
+    line-height: 2rem;
+}
+
+.study-search-page .search-result-box > div:last-child > a {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}

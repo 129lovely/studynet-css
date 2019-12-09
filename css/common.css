@@ -236,7 +236,8 @@ textarea {
     
 	font-family: 'Black Han Sans', sans-serif;
 	font-size: 1.5rem;
-    text-align: center;
+	text-align: center;
+	line-height: normal;
     
     border: none;
    	border-radius: 10px;
@@ -246,23 +247,33 @@ textarea {
 	display: inline-block;
 	width: 110px;
 	height: 45px;
-    padding: 12px 0 10px 0;
+    padding: 10px 0;
 }
 
 .my-btn.black-white {
 	background-color: #2E323C;
 	color: #DFE1E4;
+	transition: all 0.25s;
+}
+
+.my-btn.my-btn.black-white:hover {
+	background-color: #3B5BA2;
+	color: #EFF4FA;
 }
 
 .my-btn.yellow-black {
 	background-color: #FEC46E;
 	color: #383B46;
+	transition: all 0.25s;
 }
 
 .my-btn.blue-white {
 	background-color: #3B5BA2;
 	color: #EFF4FA;
+	transition: all 0.25s;
 }
+
+
 
 /*
 //----------------------------------------------------------------------------------

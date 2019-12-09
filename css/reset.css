@@ -66,6 +66,10 @@ table {
 	clip: rect(0,0,0,0);
 	border: 0;
 }
+.mb10 {
+	margin-bottom: 10px;
+}
+
 .mb20 {
 	margin-bottom: 20px;
 }
