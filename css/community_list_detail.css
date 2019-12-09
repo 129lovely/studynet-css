@@ -1,0 +1,113 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 게시판 공통
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail .inner-box .board > div:not(:first-child)
+, .community-list-detail .inner-box .comment-box > div:not(:first-child) {
+    border-top: 3px solid #DFE1E4;
+}
+
+.community-list-detail .board-info
+, .community-list-detail .board-contents
+, .community-list-detail .comment-info
+, .community-list-detail .comment-box .comment-origin
+, .community-list-detail .comment-box .comment-reply {
+    padding: 15px;
+}
+
+.community-list-detail .write-comment-box {
+    padding: 20px 0;
+}
+
+.community-list-detail .board .bg-blue {
+    background-color: #eef3fa;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 게시글 제목, 작성자 정보, 게시글 내용, 추천버튼
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail h2 {
+    font-size: 1.6rem;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.community-list-detail .board-info {
+    justify-content: space-between;
+}
+
+.community-list-detail .board-info h3 {
+    font-weight: bold;
+}
+
+.community-list-detail .board-info span:nth-child(2n):not(:last-child) {
+    margin-right: 10px;
+}
+
+.community-list-detail .board-contents p {
+    padding-top: 20px;
+}
+
+.community-list-detail .board-contents a {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 코멘트
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail .comment-origin div
+, .community-list-detail .comment-reply-content div  {
+    margin-bottom: 15px;
+}
+
+.community-list-detail .comment-box h3 {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.community-list-detail .comment-box span
+, .community-list-detail .comment-box a {
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 1px;
+}
+
+.community-list-detail .comment-box span {
+    margin-right: 20px;
+}
+
+.community-list-detail .comment-box a {
+    background-color: #32539D;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+.community-list-detail .comment-box p {
+    line-height: 1.3rem;
+}
+
+.community-list-detail .write-comment-box textarea {
+    height: 100px;
+    flex-shrink: 1;
+    margin-right: 20px;
+}
+
+.community-list-detail .write-comment-box a {
+    flex-shrink: 0;
+    height: fit-content;
+}
