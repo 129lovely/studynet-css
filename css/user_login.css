@@ -5,55 +5,27 @@
 //
 //----------------------------------------------------------------------------------
 */
-
 .study-login { 
     padding: 60px 40px;
-}
-
-.table-indent {
-    padding: 0 40px;
 }
 
 .study-login .inner-box {
     max-width: 684px;
 }
 
-/*
-//----------------------------------------------------------------------------------
-//
-// 페이지 제목 문구
-//
-//----------------------------------------------------------------------------------
-*/
-.study-login-box .flex-box{
+.study-login .study-login-box .flex-box{
     justify-content: center;
 }
 
-.study-login-box .black-bottom-line{
+.study-login .study-login-box .black-bottom-line{
     border-bottom: solid 3px #2E323C;
     padding-top: 0px;
     margin-bottom: 20px;
 }
 
-.study-login-box h2.section-title {
+.study-login .study-login-box h2.section-title {
     display: inline-block;
     padding-bottom: 0px;
-}
-
-/*
-//----------------------------------------------------------------------------------
-//
-// 페이지 버튼 ( 회원 가입, 카카오톡 로그인 )
-//
-//----------------------------------------------------------------------------------
-*/
-
-.study-log-btn-box .flex-box{
-    justify-content: center;
-}
-
-.study-log-btn-box .inner-box .flex-box input{
-    margin-right: 20px;
 }
 
 /*
@@ -63,34 +35,21 @@
 //
 //----------------------------------------------------------------------------------
 */
-
-.study-log-box input{
-    margin: 5px;
+.study-login .study-log-box .log-input a{
+    text-decoration: underline;
 }
 
-.log-input {
-    display: flex;
-    justify-content: center;
+.study-login .study-log-box .link_find{
+    margin-top: 20px;
 }
 
-.log-input .flex-box {
-    align-items: center;
+.study-log-box .log-input input[type="text"]
+, .study-log-box .log-input input[type="password"] {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
 }
 
-.log-input .my-btn{
-    width: 120px;
-    height: 50px;
-    font-size: 2rem;
-}
-
-.log-input a{
-    text-decoration:underline;
-}
-
-.log-input a{
-    text-decoration:underline;
-}
-
-.link_find{
-    margin-top: 15px;
+.study-log-box .log-input input[value="로그인"] {
+    margin-right: 5px;
 }

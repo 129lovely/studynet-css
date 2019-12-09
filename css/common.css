@@ -69,7 +69,6 @@
 	line-height: 1.3rem;
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 10px;
 }
 
 .sub-section-title {
@@ -467,9 +466,16 @@ textarea {
 
 .icon-login-study {
     background-image: url(../images/icon/edit.png);
-    width: 50px;
-	height: 50px;
+    width: 40px;
+	height: 40px;
 	margin-bottom: 30px;
+}
+
+.icon-login-kakao {
+	background-image: url(../images/icon/kakao_login.png);
+    width: 300px;
+	height: 39.4px;
+	margin: 10px 0;
 }
 
 /*
