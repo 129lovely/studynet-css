@@ -385,10 +385,20 @@ textarea {
 	transition: all 0.25s;
 }
 
+.my-btn.yellow-black:hover {
+	background-color: #2E323C;
+	color: #DFE1E4;
+}
+
 .my-btn.blue-white {
 	background-color: #3B5BA2;
 	color: #EFF4FA;
 	transition: all 0.25s;
+}
+
+.my-btn.blue-white:hover {
+	background-color: #FEC46E;
+	color: #383B46;
 }
 
 

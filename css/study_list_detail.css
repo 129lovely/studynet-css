@@ -8,12 +8,18 @@
 .study-list-detail .inner-box .board > h2
 , .study-list-detail .inner-box .board > div:not(:last-child) {
     border-bottom: 3px solid #DFE1E4;
-    padding: 15px 5px;
+    padding: 25px 5px;
 }
 
 .study-list-detail .inner-box .board > h2 {
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+
+.study-list-detail .inner-box .board > .flex-box.bg-blue {
+    background-color: #eef3fa;
+    padding: 15px 5px;
 }
 
 .study-list-detail .board .flex-box {

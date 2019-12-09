@@ -49,7 +49,10 @@
 , .study-search-page .search-box input[type="text"]
 , .study-search-page .search-box select {
     margin-right: 5px;
-    margin-bottom: 10px;
+}
+
+.study-search-page .search-box .flex-box > p {
+    margin-top: 5px;
 }
 
 /*
