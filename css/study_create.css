@@ -8,6 +8,7 @@
 .study-create-box .flex-box {
     justify-content: center;
     align-items: baseline;
+    padding-top: 30px;
 }
 
 .study-create-box h2 {
@@ -173,8 +174,13 @@
 */
 .study-create-btn-box .flex-box {
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .study-create-btn-box .flex-box input:not(:last-child) {
     margin-right: 10px;
+}
+
+.study-create-btn-box .my-btn {
+    font-size: 2rem
 }
