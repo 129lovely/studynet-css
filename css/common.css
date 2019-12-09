@@ -9,6 +9,7 @@
 	남색: #32539D
 	개나리색: #FFC267
 	연한 회색: #DFE1E4 (테두리, input박스)
+	연하늘: #eef3fa
 */
 
 /*
@@ -40,6 +41,11 @@
 
 .contents-box {
 	padding: 0 20px;
+}
+
+.contents-box.board {
+	max-width: 684px;
+	margin: 0 auto;
 }
 
 .contents-box .line-bottom {

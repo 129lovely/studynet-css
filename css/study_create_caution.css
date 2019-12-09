@@ -1,0 +1,55 @@
+
+.table-indent {
+    padding: 0 40px;
+}
+
+.study-guide .inner-box {
+    max-width: 684px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 룸 생성 동의 안내
+//
+//----------------------------------------------------------------------------------
+*/
+.study-guide-box .flex-box {
+    justify-content: center;
+    align-items: baseline;
+}
+
+.study-guide-box h2 {
+    margin-right: 10px;
+}
+
+.study-guide-box p {
+
+    font-weight: bold;
+    
+}
+
+
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 스터디 신청 페이지 버튼 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-guide-btn-box .flex-box {
+    justify-content: center;
+}
+
+.study-guide-btn-box .flex-box input:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
