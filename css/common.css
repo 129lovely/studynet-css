@@ -66,7 +66,7 @@
 }
 
 .section-discription {
-	line-height: 1.3rem;
+	line-height: 1.5rem;
 	text-align: center;
 	font-weight: bold;
 }
@@ -373,10 +373,10 @@ textarea {
 */
 .my-btn {
     display: inline-block;
-    padding: 6px 20px 3px;
+    padding: 6px 20px;
     
-	font-family: 'Black Han Sans', sans-serif;
-	font-size: 1.5rem;
+	font-family: 'S-CoreDream-8Heavy', sans-serif;
+	font-size: 1.2rem;
 	text-align: center;
 	line-height: normal;
     

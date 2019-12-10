@@ -55,22 +55,21 @@
     padding-top: 20px;
 }
 
-.community-list-detail .board-contents a {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+.community-list-detail .board-contents .btn-box-rec {
     margin-top: 40px;
     margin-bottom: 10px;
 }
-.community-list-detail .board-contents .btn-box a{
-    position: relative;
-    left: 85%;
-    padding: 2px 6px;
-    margin: 5px;
-    background: #DFE1E4;
-    border-radius: 3px;
 
+.btn-box-mod {
+    text-align: right;
 }
+
+.community-list-detail .board-contents .btn-box-mod a {
+    padding: 2px 6px;
+    background: #DFE1E4;
+    border-radius: 5px;
+}
+
 /*
 //----------------------------------------------------------------------------------
 //

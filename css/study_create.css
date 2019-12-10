@@ -180,7 +180,3 @@
 .study-create-btn-box .flex-box input:not(:last-child) {
     margin-right: 10px;
 }
-
-.study-create-btn-box .my-btn {
-    font-size: 2rem
-}
