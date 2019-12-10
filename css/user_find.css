@@ -1,0 +1,72 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 아이디/비번찾기 페이지
+//
+//----------------------------------------------------------------------------------
+*/
+.user-find { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+}
+
+.user-find .inner-box {
+    max-width: 684px;
+    
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// input
+//
+//----------------------------------------------------------------------------------
+*/
+.user-find .find-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-find label{
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 350px;
+    margin: 10px;
+    text-align: right;
+}
+
+.user-find input[type="text"]{
+    float: right;
+    margin-right: 20px;
+}
+
+.user-find input[type="button"]{
+    width: 120px;
+    height: 50px;
+    align-self: center;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 페이지 이동 버튼
+//
+//----------------------------------------------------------------------------------
+*/
+
+.innerbox .page-button{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.user-find .page-button input{
+    font-size: 2rem;
+    display: inline-block;
+    width: 170px;
+    margin: 10px;
+    
+}
