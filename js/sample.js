@@ -42,4 +42,24 @@ function initSummernote(){
             ['insert', ['link', 'picture']]
         ]
     });
+
+    $('.summernote-community-writing-box').summernote({
+        lang: 'ko-KR',
+        height: 300 + 'px',                 // set editor height
+        minHeight: 200 + 'px',             // set minimum height of editor
+        maxHeight: 500 + 'px',             // set maximum height of editor
+        focus: true,                  // set focus to editable area after initializing summernote
+        placeholder: '',
+        toolbar: [
+            // [groupName, [list of button]]
+            ['style', ['bold', 'italic', 'underline', 'clear']],
+            ['font', ['strikethrough']],
+            ['fontsize', ['fontsize']],
+            ['color', ['color']],
+            ['para', ['paragraph']],
+            ['height', ['height']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture']]
+        ]
+    });
 }
