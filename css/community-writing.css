@@ -1,0 +1,37 @@
+
+.contents-box {
+    
+}
+
+
+.writing {
+    font-weight:bold;
+    font-size:18px;
+    margin:15px 0;
+}
+
+.discription {
+    font-size:14px;
+    margin-bottom: 25px;
+}
+
+
+.title  {
+    text-align:center;
+    margin-bottom: 25px;
+    border-bottom:1px solid #9999;
+    padding-bottom: 25px;
+}
+
+.title label {
+    padding-right: 10px;
+}
+
+.title input  {
+    
+    width:75%;
+}
+.my-btn.yellow {   
+    background-color: #fec46e;
+	color: #2e323c;
+}
