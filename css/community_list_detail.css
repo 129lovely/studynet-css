@@ -5,6 +5,12 @@
 //
 //----------------------------------------------------------------------------------
 */
+
+.community-list-detail {
+    padding-top: 40px;
+}
+
+
 .community-list-detail .inner-box .board > div:not(:first-child)
 , .community-list-detail .inner-box .comment-box > div:not(:first-child) {
     border-top: 3px solid #DFE1E4;
@@ -29,7 +35,7 @@
 /*
 //----------------------------------------------------------------------------------
 //
-// 게시글 제목, 작성자 정보, 게시글 내용, 추천버튼
+// 게시글 제목, 작성자 정보, 게시글 내용, 추천버튼, 목록으로 돌아가기 버튼, 수정/삭제 버튼
 //
 //----------------------------------------------------------------------------------
 */
@@ -37,8 +43,15 @@
     font-size: 1.6rem;
     padding: 0 15px;
     font-weight: bold;
+    display: inline-block;
 }
 
+.community-list-detail .my-btn.black-white.list{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    width: 100px;
+    float: right;    
+}
 .community-list-detail .board-info {
     justify-content: space-between;
 }
@@ -59,9 +72,18 @@
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    margin-top: 40px
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
+.community-list-detail .board-contents .btn-box a{
+    position: relative;
+    left: 85%;
+    padding: 2px 6px;
+    margin: 5px;
+    background: #DFE1E4;
+    border-radius: 3px;
 
+}
 /*
 //----------------------------------------------------------------------------------
 //
@@ -94,7 +116,8 @@
 .community-list-detail .comment-box a {
     background-color: #32539D;
     color: #FFFFFF;
-    padding: 2px;
+    padding: 3px;
+    border-radius: 2px;
 }
 
 .community-list-detail .comment-box p {
@@ -110,4 +133,9 @@
 .community-list-detail .write-comment-box a {
     flex-shrink: 0;
     height: fit-content;
+}
+
+.community-list-detail .write-comment-box .my-btn{
+    align-self: center;
+    font-size: 1.8rem;
 }
