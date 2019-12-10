@@ -49,7 +49,9 @@
     display: block;
     margin: 10px auto;
 }
-
+.study-log-box .log-input input[type="button"]{
+    font-size: 1.7rem;
+}
 .study-log-box .log-input input[value="로그인"] {
     margin-right: 5px;
 }
