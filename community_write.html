@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>커뮤니티 글 작성</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote.css" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/community_write.css" />
+	<link type="text/css" rel="stylesheet" href="css/common.css" />
+	
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+	<script src="js/summernote.js"></script>
+    <script src="js/summernote-ko-KR.js"></script>
+    <script type="text/javascript" src="js/sample.js"></script>
+    
+</head>
+
+<body>
+    <div class="body-bgcolor-set">
+        <div class="community-writing">
+            <div class="inner-box">
+                <div class="contents-box board">
+                    <h3 class="section-title blue">커뮤니티 글 작성</h3>
+                    <p class="section-discription tal mb40">이용약관을 준수하여 올바른 커뮤니티 사용을 부탁드립니다.</p>
+                    
+                    <!--제목-->
+                    <div class="line-bottom flex-box">
+                        <label for="board-title">제목</label>
+                        <input id="board-title" type="text" placeholder="제목을 입력해주세요." />
+                    </div>
+                    
+                    <!--텍스트-->
+                    <div class="note-my-custom">
+                        <textarea class="summernote-community-writing-box"></textarea>	
+                    </div>
+                    
+                    <!--버튼-->
+                    <div class="btn-box tac">
+                        <input class="my-btn yellow-black" type="button" value="올리기" />
+                        <input class="my-btn yellow-black" type="button" value="취소" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

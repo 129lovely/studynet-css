@@ -1,26 +1,3 @@
-.paging-box a {
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: all 0.25s;
-    font-family: 'Do Hyeon', sans-serif;
-}
-
-.paging-box a:hover {
-    color: #FFC267;
-}
-
-.paging-box a:first-child::before {
-    content: '<';
-}
-
-.paging-box a:last-child::before {
-    content: '>';
-}
-
-.paging-box a:not(:last-child) {
-    margin-right: 10px;
-}
-
 /*
 //----------------------------------------------------------------------------------
 //

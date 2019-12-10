@@ -102,6 +102,29 @@
     padding: 0 40px;
 }
 
+.paging-box a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.25s;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.paging-box a:hover {
+    color: #FFC267;
+}
+
+.paging-box a:first-child::before {
+    content: '<';
+}
+
+.paging-box a:last-child::before {
+    content: '>';
+}
+
+.paging-box a:not(:last-child) {
+    margin-right: 10px;
+}
+
 /*
 //----------------------------------------------------------------------------------
 //
@@ -386,22 +409,9 @@ textarea {
 }
 
 .my-btn.yellow-black:hover {
-	background-color: #2E323C;
-	color: #DFE1E4;
-}
-
-.my-btn.blue-white {
 	background-color: #3B5BA2;
 	color: #EFF4FA;
-	transition: all 0.25s;
 }
-
-.my-btn.blue-white:hover {
-	background-color: #FEC46E;
-	color: #383B46;
-}
-
-
 
 /*
 //----------------------------------------------------------------------------------
@@ -490,6 +500,13 @@ textarea {
     width: 300px;
 	height: 39.4px;
 	margin: 10px 0;
+}
+
+.icon-caution {
+	background-image: url(../images/icon/caution.png);
+    width: 60px;
+	height: 60px;
+	margin-right: 20px;
 }
 
 /*

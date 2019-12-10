@@ -1,0 +1,30 @@
+
+/*
+//----------------------------------------------------------------------------------
+//
+// 커뮤니티 글 작성 페이지
+//
+//----------------------------------------------------------------------------------
+*/
+.community-writing .board .section-title
+, .community-writing .board .section-discription {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.community-writing .flex-box {
+    align-items: center;
+}
+
+.community-writing label {
+    min-width: 50px;
+    font-weight: bold;
+}
+
+.community-writing #board-title {
+    width: 100%;
+}
+
+.community-writing .btn-box .my-btn {
+    margin: 5px;
+}

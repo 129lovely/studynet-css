@@ -1,0 +1,89 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 커뮤니티 게시판 리스트
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-board h2
+, .community-list-board .community-board-info
+, .community-list-board table th
+, .community-list-board table td {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.community-list-board h2
+, .community-list-board h2 span {
+    font-size: 2rem;
+}
+
+.community-list-board .community-board-info {
+    align-items: center;
+}
+
+.community-list-board .community-board-info p {
+    line-height: 1.4rem;
+    max-width: 300px;
+}
+
+.community-list-board .search-result span {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.community-list-board table {
+    width: 100%;
+}
+
+.community-list-board table th
+, .community-list-board table td {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.community-list-board table th {
+    background-color: #DFE1E4;
+}
+
+.community-list-board table tr:not(:first-child) {
+    border-bottom: 3px solid #DFE1E4;
+}
+
+.community-list-board table td:nth-child(1) {
+    width: 70%;
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	text-align: left;
+}
+
+.community-list-board table td:nth-child(2) {
+    width: 30%;
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.community-list-board table td:nth-child(3) {
+    min-width: 100px;
+}
+
+.community-list-board table td:nth-child(4)
+, .community-list-board table td:nth-child(5) {
+    min-width: 70px;
+}
+
+.community-list-board .btn-box {
+    justify-content: space-between;
+}
+
+.community-list-board .btn-box .flex-box select
+, .community-list-board .btn-box .flex-box input {
+    margin-right: 5px;
+}
+
