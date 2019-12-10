@@ -65,3 +65,7 @@
 .study-list-detail input[value="신청하기"] {
     margin-right: 5px;
 }
+
+.study-list-detail .mb40 .my-btn{
+    font-size: 1.8rem;
+}

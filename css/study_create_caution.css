@@ -5,6 +5,12 @@
 //
 //----------------------------------------------------------------------------------
 */
+
+.study-guide-box {
+    margin-top: 50px;
+}
+
+
 .study-guide-box .flex-box {
     justify-content: space-between;
     align-items: center;
