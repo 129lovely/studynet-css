@@ -49,22 +49,28 @@
 							<div class="table-indent">
 								<table>
 									<tr>
-										<th rowspan="4">스터디명</th>
+										<th rowspan="9">스터디명</th>
 										<td colspan="2"><input type="text" placeholder="스터디 이름을 간결하고 알기 쉽게 입력해주세요.(최대20글자)" /></td>
 									</tr>
 									<tr>
-										<td colspan="2">* 수용 가능한 범위에서 선택해주세요</td>
+										<td colspan="3">* 인원은 수용 가능한 범위에서 기입해주세요</td>
 									</tr>
+	
 									<tr>
-										<th>모집 인원</th>
+										<th>최소 인원</th>
 										<td>
-											<select>
-												<option>10</option>
-												<option>9</option>
-											</select>
+											<input type="text" class="number" title=""/>
 											<span>명</span>
 										</td>
 									</tr>
+									<tr>
+										<th>최대 인원</th>
+										<td>
+											<input type="text" class="number" title=""/>
+											<span>명</span>
+										</td>
+									</tr>
+		
 									<tr>
 										<th>신청 마감</th>
 										<td class="select-date">
@@ -84,7 +90,7 @@
 												<label for="recruit-type">상시 모집</label>
 											</div>
 										</td>
-									</tr>
+									</tr>						
 								</table>
 							</div>
 						</div>
@@ -143,6 +149,42 @@
 									<tr>
 										<th>옵션</th>
 										<td><input type="text" placeholder="옵션 설명" /></td>
+									</tr>
+									<tr>
+										<th>오픈 카톡</th>
+										<td><input type="text" placeholder="오픈 카톡 주소를 입력해 주세요" /></td>
+									</tr>
+									<tr>
+										<th>활동 시작</th>
+										<td class="select-date">
+											<div>
+												<select>
+													<option>년</option>
+												</select>
+												<select>
+													<option>월</option>	
+												</select>
+												<select>
+													<option>일</option>
+												</select>
+											</div>
+										</td>	
+									</tr>	
+									<tr>
+										<th>활동 종료</th>
+										<td class="select-date">
+											<div>
+												<select>
+													<option>년</option>
+												</select>
+												<select>
+													<option>월</option>	
+												</select>
+												<select>
+													<option>일</option>
+												</select>
+											</div>
+										</td>	
 									</tr>
 								</table>
 							</div>	

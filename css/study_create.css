@@ -40,20 +40,25 @@
     width: 100%;
 }
 
-.study-info-box table tr:nth-child(3) td{
+.study-info-box table tr td{
     padding-bottom: 10px;
 }
 
 .study-info-box table tr:nth-child(2) td{
-    padding: 20px 0 5px 0;
+    padding: 15px 0 10px 0;
 
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #3B5BA2;
 }
 
 .study-info-box input[type='text'] {
     width: 100%;
     max-width: 940px;
+}
+
+.study-info-box input[type='text'].number{
+    width: 20%;
+    max-width: 400px;
 }
 
 .study-info-box select {
@@ -149,6 +154,13 @@
     max-width: 940px;
 }
 
+.study-option-box .select-date select{
+    margin-right: 5px;
+}
+
+.study-option-box .select-date select:first-child {
+    width: 80px;
+}
 /*
 //----------------------------------------------------------------------------------
 //
