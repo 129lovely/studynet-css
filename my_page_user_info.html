@@ -44,7 +44,8 @@
 								<tr>
 									<th>이메일</th>
 									<td>
-										<input type="text" readonly id="id" placeholder="example@email.com" title="id">
+										<input type="text" readonly id="email" placeholder="example@email.com" title="id">
+										<input class="my-btn black-white" name="" type="button" value="인증">
 									</td>
 								</tr>
 									
@@ -54,14 +55,22 @@
 										<input type="text" readonly id="name" placeholder="" title="이름"> 
 									</td>
 								</tr>
-								
+
+								<tr>
+									<th>  </th>
+									<td>
+										<input class="my-btn black-white" name="" type="button" value="초기 비밀번호 받기">									
+										<p class="section-discription">* sns 로그인 유저만 1회에 한해 이메일로 받으실 수 있습니다.</p>
+									</td>
+								</tr>
+
 								<tr>	
 									<th>현재 비밀번호</th>
 									<td>
 										<input type="password" id="pwd" title="현재 비밀번호" placeholder="특수기호 포함 영숫자 조합 8자 이상 " >
 									</td>
 								</tr>
-								
+
 								<tr>
 									<th>바꿀 비밀번호</th>
 									<td>
@@ -122,12 +131,13 @@
 					<div class="line-bottom">
 							<h1 class="sub-section-title"> 회원탈퇴</h1>
 					</div>
-					<p class="section-discription">
-						신청 / 참여 / 개설 중인 스터디들이 없어야 탈퇴가 가능합니다.<br>
-						회원을 탈퇴하시면 1년 후, 모든 정보가 사라집니다.<br>
-						정말 탈퇴를 진행하시려면 비밀번호를 재입력해주세요.
-					</p>	
-					<form class="get-out-form tac ">
+					<form class="get-out-form tac">
+						<p class="section-discription">
+							신청 / 참여 / 개설 중인 스터디들이 없어야 탈퇴가 가능합니다.<br>
+							회원을 탈퇴하시면 1년 후, 모든 정보가 사라집니다.<br>
+							정말 탈퇴를 진행하시려면 비밀번호를 재입력해주세요.
+						</p>	
+					
 						<input type="text" id="pwd" title="비밀번호 재입력" placeholder="현재 비밀번호를 입력해주세요.">
 						<input  type="button" class="my-btn black-white" title="회원 탈퇴" value="탈퇴">
 					</form>		

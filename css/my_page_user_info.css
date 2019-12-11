@@ -74,6 +74,16 @@
     width: 100%;
 }
 
+.mypage-userinfo .section-discription {
+    padding-bottom: 0px;
+}
+
+.mypage-userinfo .mypage-userinfo-form #email {
+    width: 70%;
+    margin-right: 15px;
+}
+
+
 .mypage-userinfo .mypage-userinfo-form .join-radio-box > div {
    margin-right: 5px;
    display: inline-block;
@@ -95,7 +105,7 @@
 //
 //----------------------------------------------------------------------------------
 */
-.section-discription {
+.get-out-form .section-discription {
     padding-bottom: 20px;
 }
 
