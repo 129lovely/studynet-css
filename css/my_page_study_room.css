@@ -1,0 +1,48 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// 마이페이지 메뉴
+//
+//----------------------------------------------------------------------------------
+*/
+
+.mypage-studyroom .line-bottom {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.mypage-studyroom .section-title {
+    padding-top: 5px;
+}
+
+.mypage-studyroom .mypage-menu-box .menu{
+    padding-top: 10px;
+}
+
+.menu-bar-box {
+    width: 360px; margin: 0 auto;
+}
+
+.mypage-studyroom .menu-bar-box .mypage-menu-box .menu:first-child{
+    margin-right: 50px;
+}
+
+#bar {
+    height: 10px;
+    background: #FFC267;
+
+    position: relative;
+  
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.left {
+    margin-left: 10px;
+    margin-right: 230px;
+}
+
+.right {
+    margin-left: 210px;
+    margin-right: 60px;
+}

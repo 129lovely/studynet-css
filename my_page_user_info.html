@@ -8,7 +8,7 @@
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
 	<link type="text/css" rel="stylesheet" href="css/my_page_user_info.css" />
 	<link type="text/css" rel="stylesheet" href="css/reset.css" />
-
+	<script src="js/sample.js"></script>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 		<div class="mypage-userinfo">
 			
 			<div class="inner-box">
-				<div class="contents-box">
+				<div class="contents-box board">
 					<!-- 마이 페이지 메뉴 -->
 					<div class="flex-box">
 						<span class="icon icon-my-page tal"></span>
@@ -24,9 +24,12 @@
 					</div>
 
 					<div class="line-bottom">
-						<div class="flex-box mypage-menu-box">
-							<a href="#" class="menu sub-section-title black tac">내 스터디룸</a>
-							<a href="#" class="menu sub-section-title black tac">회원 정보</a>
+						<div class="menu-bar-box">
+							<div class="mypage-menu-box">
+								<a href="#" class="menu room sub-section-title black tac">내 스터디룸</a>
+								<a href="#" class="menu info sub-section-title black tac" onmouseover="move_right();" onmouseout="move_left();">회원 정보</a>
+							</div>
+							<div id="bar" class="left"></div>
 						</div>
 					</div>
 
@@ -39,9 +42,9 @@
 						<form class="mypage-userinfo-form ">
 							<table>
 								<tr>
-									<th>아이디</th>
+									<th>이메일</th>
 									<td>
-										<input type="text" readonly id="id" placeholder="" title="id">
+										<input type="text" readonly id="id" placeholder="example@email.com" title="id">
 									</td>
 								</tr>
 									
@@ -53,24 +56,23 @@
 								</tr>
 								
 								<tr>	
-									<th>비밀번호</th>
+									<th>현재 비밀번호</th>
 									<td>
-										<input type="password" id="pwd" title="비밀번호 입력" placeholder="비밀번호는 8자 이상 특수 기호 포함" >
+										<input type="password" id="pwd" title="현재 비밀번호" placeholder="특수기호 포함 영숫자 조합 8자 이상 " >
 									</td>
 								</tr>
 								
 								<tr>
-									<th>비밀번호 확인</th>
+									<th>바꿀 비밀번호</th>
 									<td>
-										<input   type="password" id="pwd_check" title="비밀번호 확인" placeholder="비밀번호를 다시 한번 입력해주세요.">
+										<input   type="password" id="new_pwd" title="바꿀 비밀번호" placeholder="바꿀 비밀번호를 입력해주세요.">
 									</td>
 								</tr>
-								
-								<tr>	
-									<th>이메일</th>
-									<td>
-										<input type="text" id="email-input" title="이메일 입력" placeholder="example@email.com">
 
+								<tr>
+									<th>비밀번호 확인</th>
+									<td>
+										<input   type="password" id="pwd_check" title="비밀번호 확인" placeholder="바꿀 비밀번호를 다시 한번 입력해주세요.">
 									</td>
 								</tr>
 								

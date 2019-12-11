@@ -14,22 +14,37 @@
 .mypage-userinfo .section-title {
     padding-top: 5px;
 }
-.mypage-userinfo .mypage-menu-box {
-    display: flex;
-    justify-content: center ;
-}
 
 .mypage-userinfo .mypage-menu-box .menu{
-    width: 30%;
-    margin-right: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
+}
+.mypage-userinfo .mypage-menu-box .menu:first-child{
+    margin-right: 50px;
 }
 
-.mypage-userinfo .mypage-menu-box .menu:first-child {
-    border-bottom: 10px solid #FFC267 ;
+.menu-bar-box {
+    width: 360px; margin: 0 auto;
 }
 
-/* 이거 옆 메뉴에 마우스 올리면 옆으로 노란색 움직이게 어케하지? div를 하나 더 만들어야대려나 */
+#bar {
+    height: 10px;
+    background: #FFC267;
+
+    position: relative;
+  
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.left {
+    margin-left: 10px;
+    margin-right: 230px;
+}
+
+.right {
+    margin-left: 210px;
+    margin-right: 60px;
+}
 
 /*
 //----------------------------------------------------------------------------------
