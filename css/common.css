@@ -509,6 +509,13 @@ textarea {
 	margin-right: 20px;
 }
 
+.icon-my-page {
+	background-image: url(../images/icon/locked.png);
+    width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
 /*
 //----------------------------------------------------------------------------------
 //
