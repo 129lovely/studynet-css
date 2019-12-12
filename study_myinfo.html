@@ -39,60 +39,630 @@
 					</div>
 					<div class = "study-room-box ">
 						<div>
-							<div class = "study-room">
-								<a class = "study-name" href="#">
-								<span class="status my-btn black-white">승인 대기</span>
-								[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
-								<div class="accordion ">
-									<table class="study-info"> 
-										<tr>
-											<th>
-												스터디 기간
-											</th>
-											<td>
-												| 2019.12.06 - 2019.12.29
-											</td>
-										</tr>
-										<tr>
-											<th>
-												오픈 카톡
-											</th>
-											<td>
-												| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
-											</td>
-										</tr>
-										<tr>
-											<th>
-												개설자 명
-											</th>
-											<td>
-												| 2019.12.06 - 2019.12.29
-											</td>
-										</tr>
-										<tr>
-											<th>
-												모집 기간
-											</th>
-											<td>
-												| 2019.12.06 - 2019.12.29
-											</td>
-										</tr>
-										<tr>
-											<th>
-												모집 인원
-											</th>
-											<td>
-												| 8 명
-											</td>
-										</tr>
-									</table>
-									
-									<div class="room-btn-box"> 
-										<input type="button" class="my-btn yellow-black" value="신청 취소">
-
+								<!-- if status == 승인대기 -->
+							<div class = "study-room ready-confirm">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">승인 대기</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="신청 취소">
+										</div>
 									</div>
 								</div>
-							</div>
+
+								<!-- if status == 승인거부 -->
+							<div class = "study-room rejected">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">승인 거부</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+											<input type="button" class="my-btn yellow-black" value="삭제하기">
+										</div>
+									</div>
+								</div>
+
+							<!-- if status == 개설 대기중 -->
+							<div class = "study-room ready-open">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">개설 대기</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="신청 취소">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 개설 취소 -->
+							<div class = "study-room cancle-open">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">개설 취소</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="신청 취소">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 진행중 -->
+							<div class = "study-room open">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">진행 중</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="신청 취소">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 폐쇄 대기중 -->
+							<div class = "study-room ready-close">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">폐쇄 대기</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="신청 취소">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 폐쇄 -->
+							<div class = "study-room close">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">폐쇄</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="삭제하기">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 종료 -->
+							<div class = "study-room end">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">종료</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="삭제하기">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 모집 중 -->
+							<div class = "study-room now-recruit">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">모집 중</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="관리 페이지">
+										</div>
+									</div>
+								</div>
+
+								<!-- if status == 마감 가능 -->
+							<div class = "study-room ready-recruit-end">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">마감 가능</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+	
+											<input type="button" class="my-btn yellow-black" value="관리 페이지">
+										</div>
+									</div>
+								</div>
+								<!-- if status == 운영중 -->
+							<div class = "study-room running">	
+									<a class = "study-name" href="#">
+									<span class="status my-btn black-white">운영 중</span>
+									[오프라인] 냥냥이냥냥냐스터디제목이냥냥냥</a>
+									<div class="accordion">
+										<table class="study-info"> 
+											<tr>
+												<th>
+													스터디 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													오픈 카톡
+												</th>
+												<td>
+													| <a href="#">https://open.kakao.com/o/s6K2bz7</a>
+												</td>
+											</tr>
+											<tr>
+												<th>
+													개설자 명
+												</th>
+												<td>
+													| 김꽁치
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 기간
+												</th>
+												<td>
+													| 2019.12.06 - 2019.12.29
+												</td>
+											</tr>
+											<tr>
+												<th>
+													모집 인원
+												</th>
+												<td>
+													| 8 명
+												</td>
+											</tr>
+										</table>
+										
+										<div class="room-btn-box">
+											<input type="button" class="my-btn yellow-black" value="관리 페이지">
+										</div>
+									</div>
+								</div>
+
+								<!-- study가 아예 없을 경우 -->
+							<div class = "study-room none">	
+									<p class = "study-name"> 참여중인 스터디가 존재하지 않습니다. </p>
+									
+										<div class="room-btn-box">
+											<input type="button" class="my-btn yellow-black" value="스터디 찾아보기">
+											<input type="button" class="my-btn yellow-black" value="스터디 개설하기">
+										</div>
+									</div>
+								</div>
+								
 						</div>
 					</div>
 				</div>

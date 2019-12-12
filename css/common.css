@@ -2002,14 +2002,24 @@ textarea {
 }
 
 .room-btn-box {
-    padding-top: 15px;
+    padding-top: 10px;
     margin-top: 10px;
-    
+    display: flex;
+    justify-content: flex-end;
     border-top: 2px solid #DFE1E4;
 }
 
+.room-btn-box .my-btn {
+    margin-right: 10px;
+}
 
+.study-room.none .room-btn-box{
+    justify-content: center;
+}
 
+.study-room.none p{
+    text-align: center;
+}
 
 /*
 //----------------------------------------------------------------------------------
