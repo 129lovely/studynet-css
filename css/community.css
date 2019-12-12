@@ -1,0 +1,245 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// [ 커뮤니티 ] 커뮤니티 게시판 리스트
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-board h2
+, .community-list-board .community-board-info
+, .community-list-board table th
+, .community-list-board table td {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.community-list-board h2
+, .community-list-board h2 span {
+    font-size: 2rem;
+}
+
+.community-list-board .community-board-info {
+    align-items: center;
+}
+
+.community-list-board .community-board-info p {
+    line-height: 1.4rem;
+    max-width: 300px;
+}
+
+.community-list-board .search-result span {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.community-list-board table {
+    width: 100%;
+}
+
+.community-list-board table th
+, .community-list-board table td {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.community-list-board table th {
+    background-color: #DFE1E4;
+}
+
+.community-list-board table tr:not(:first-child) {
+    border-bottom: 3px solid #DFE1E4;
+}
+
+.community-list-board table td:nth-child(1) {
+    width: 70%;
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	text-align: left;
+}
+
+.community-list-board table td:nth-child(2) {
+    width: 30%;
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.community-list-board table td:nth-child(3) {
+    min-width: 100px;
+}
+
+.community-list-board table td:nth-child(4)
+, .community-list-board table td:nth-child(5) {
+    min-width: 70px;
+}
+
+.community-list-board .btn-box {
+    justify-content: space-between;
+}
+
+.community-list-board .btn-box .flex-box select
+, .community-list-board .btn-box .flex-box input {
+    margin-right: 5px;
+}
+
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [ 커뮤니티 ] 글 작성 페이지
+//
+//----------------------------------------------------------------------------------
+*/
+.community-writing .board .section-title
+, .community-writing .board .section-discription {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.community-writing .flex-box {
+    align-items: center;
+}
+
+.community-writing label {
+    min-width: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.community-writing #board-title {
+    width: 100%;
+}
+
+.community-writing .btn-box .my-btn {
+    margin: 5px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [ 커뮤니티 ] 게시판 공통
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail .inner-box .board > div:not(:first-child)
+, .community-list-detail .inner-box .comment-box > div:not(:first-child) {
+    border-top: 3px solid #DFE1E4;
+}
+
+.community-list-detail .board-info
+, .community-list-detail .board-contents
+, .community-list-detail .comment-info
+, .community-list-detail .comment-box .comment-origin
+, .community-list-detail .comment-box .comment-reply {
+    padding: 15px;
+}
+
+.community-list-detail .write-comment-box {
+    padding: 20px 0;
+}
+
+.community-list-detail .board .bg-blue {
+    background-color: #eef3fa;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [ 커뮤니티 ] 게시글 제목, 작성자 정보, 게시글 내용, 버튼
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail h2 {
+    font-size: 1.6rem;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.community-list-detail .board-info {
+    justify-content: space-between;
+}
+
+.community-list-detail .board-info h3 {
+    font-weight: bold;
+}
+
+.community-list-detail .board-info span:nth-child(2n):not(:last-child) {
+    margin-right: 10px;
+}
+
+.community-list-detail .board-contents p {
+    padding-top: 20px;
+}
+
+.community-list-detail .board-contents .btn-box-rec {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.community-list-detail .board-contents .btn-box-rec a{
+    margin-right: 10px;
+}
+
+.btn-box-mod {
+    text-align: right;
+}
+
+.community-list-detail .board-contents .btn-box-mod a {
+    padding: 2px 6px;
+    background: #DFE1E4;
+    border-radius: 5px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [ 커뮤니티 ] 코멘트
+//
+//----------------------------------------------------------------------------------
+*/
+.community-list-detail .comment-origin div
+, .community-list-detail .comment-reply-content div  {
+    margin-bottom: 15px;
+}
+
+.community-list-detail .comment-box h3 {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.community-list-detail .comment-box span
+, .community-list-detail .comment-box a {
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 1px;
+}
+
+.community-list-detail .comment-box span {
+    margin-right: 20px;
+}
+
+.community-list-detail .comment-box a {
+    background-color: #32539D;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+.community-list-detail .comment-box p {
+    line-height: 1.3rem;
+}
+
+.community-list-detail .write-comment-box textarea {
+    height: 100px;
+    flex-shrink: 1;
+    margin-right: 20px;
+}
+
+.community-list-detail .write-comment-box a {
+    flex-shrink: 0;
+    height: fit-content;
+}

@@ -1,0 +1,425 @@
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 원하는 스터디 검색하기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-search-page .search-box {
+    width: 100%;
+    background-color: #FFC267;
+    padding: 0 20px;
+}
+
+.study-search-page .search-box > div {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.study-search-page .search-box .section-title {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.study-search-page .search-box input[type="button"]:not(:last-child)
+, .study-search-page .search-box input[type="text"]
+, .study-search-page .search-box select {
+    margin-right: 5px;
+}
+
+.study-search-page .search-box .flex-box > p {
+    margin-top: 5px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 검색 결과
+//
+//----------------------------------------------------------------------------------
+*/
+.study-search-page .search-result-box {
+    max-width: 684px;
+    margin: 0 auto;
+}
+
+.study-search-page .search-result-box > div > p {
+    padding-left: 5px;
+}
+
+.study-search-page .search-result-box ul li {
+	border: 3px solid #DFE1E4;
+	border-radius: 10px;
+   
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.study-search-page .search-result-box ul li > span {
+    flex-shrink: 0;
+}
+
+.study-search-page .search-result-box ul li > div {
+    padding: 5px 20px 0 10px;
+}
+
+.study-search-page .search-result-box ul li h3 {     
+	font-weight: bold;
+	padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box ul li h3 span {     
+	font-weight: bold;
+	padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box ul li p { 
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.study-search-page .search-result-box > div > span {
+    line-height: 2rem;
+}
+
+.study-search-page .search-result-box > div:last-child > a {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 모집 상세 보기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-list-detail .inner-box .board > h2
+, .study-list-detail .inner-box .board > div:not(:last-child) {
+    border-bottom: 3px solid #DFE1E4;
+    padding: 25px 5px;
+}
+
+.study-list-detail .inner-box .board > h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+.study-list-detail .inner-box .board > .flex-box.bg-blue {
+    background-color: #eef3fa;
+    padding: 15px 5px;
+}
+
+.study-list-detail .board .flex-box {
+    justify-content: space-between;
+}
+
+.study-list-detail .board .flex-box h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.study-list-detail .recruit-info span {
+    line-height: 1.6rem;
+}
+
+.study-list-detail .recruit-info > span:first-child {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(87, 86, 86);
+}
+
+.study-list-detail .recruit-info > div > span:first-child::after {
+    content: '|';
+    margin: 0 5px;
+    font-size: 0.9rem;
+    vertical-align: top;
+}
+
+.study-list-detail .board > div > h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.study-list-detail p {
+    line-height: 1.3rem;
+}
+
+.study-list-detail .inner-box .contents-box div.recruit-detail-info {
+    padding-bottom: 40px;
+}
+
+.study-list-detail input[value="신청하기"] {
+    margin-right: 5px;
+}
+
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 참가 신청하기 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-apply .study-apply-box .line-bottom {
+    margin-bottom: 10px;
+}
+
+.study-apply .study-apply-box a {
+    font-size: 1.3rem;
+    padding: 0 20px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.study-apply .study-apply-box p {
+    padding: 0 20px;
+}
+
+.study-apply .study-apply-box a:hover {
+    color: #FFC267;
+}
+
+.study-apply .study-explanation-box > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.study-apply .study-explanation-box > div p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.study-apply .btn-box {
+    padding-bottom: 40px;
+}
+
+.study-apply .btn-box input:not(:last-child) {
+    margin-right: 5px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 룸 만들기
+//
+//----------------------------------------------------------------------------------
+*/
+.study-create-box .flex-box {
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.study-create-box h2 {
+    margin-right: 10px;
+}
+
+.study-create-box span {
+    color: #3B5BA2;
+    font-weight: bold;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 기본 정보 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-info-box table {
+    table-layout: fixed;
+}
+.study-info-box table tr th {
+    font-weight: bold;
+    text-align: left;
+    min-width: 80px;
+}
+
+.study-info-box table tr td{
+    width: 100%;
+}
+
+.study-info-box table tr td{
+    padding-bottom: 10px;
+}
+
+.study-info-box table tr:nth-child(2) td{
+    padding: 15px 0 10px 0;
+
+    font-size: 1rem;
+    color: #3B5BA2;
+}
+
+.study-info-box input[type='text'] {
+    width: 100%;
+    max-width: 940px;
+}
+
+.study-info-box input[type='text'].number{
+    width: 20%;
+    max-width: 400px;
+}
+
+.study-info-box select {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.study-info-box .select-date div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.study-info-box .select-date select {
+    margin-right: 2px;
+}
+
+.study-info-box .select-date select:not(:last-child) {
+    margin-right: 2px;
+}
+
+.study-info-box .select-date select:first-child {
+    width: 80px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 방식 선택
+//
+//----------------------------------------------------------------------------------
+*/
+.study-method-box .sub-section-title {
+    margin-right: 20px;
+}
+.study-method-box .study-method-title {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.study-method-box .study-method-title > div {
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.study-method-box .study-method-title > div div:not(:last-child) {
+    padding-right: 40px;
+}
+
+.study-method-box ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.study-method-box ul li {
+    margin-bottom: 10px;
+}
+
+.study-method-box ul li span {
+    transition: all 0.25s;
+}
+
+.study-method-box ul li span:hover {
+    background-color: #3B5BA2;
+	color: #EFF4FA;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 추가 정보
+//
+//----------------------------------------------------------------------------------
+*/
+.study-option-box table {
+    table-layout: fixed;
+}
+.study-option-box table tr th {
+    font-weight: bold;
+    text-align: left;
+    min-width: 80px;
+}
+
+.study-option-box table tr td{
+    width: 100%;
+}
+
+.study-option-box table td{
+    padding-bottom: 10px;
+}
+
+.study-option-box input[type='text'] {
+    width: 100%;
+    max-width: 940px;
+}
+
+.study-option-box .select-date select{
+    margin-right: 5px;
+}
+
+.study-option-box .select-date select:first-child {
+    width: 80px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 신청 페이지 버튼 
+//
+//----------------------------------------------------------------------------------
+*/
+.study-create-btn-box .flex-box {
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.study-create-btn-box .flex-box input:not(:last-child) {
+    margin-right: 10px;
+}
+
+/*
+//----------------------------------------------------------------------------------
+//
+// [study] 스터디 룸 생성 동의 안내
+//
+//----------------------------------------------------------------------------------
+*/
+.study-guide-box .flex-box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.study-guide-box .section-discription {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.study-guide-box .btn-box {
+    padding-bottom: 40px;
+}
+
+.study-guide-box .btn-box input:not(:last-child) {
+    margin-right: 5px;
+}
+
+
+
+
+
+
