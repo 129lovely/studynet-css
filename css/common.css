@@ -1978,6 +1978,11 @@ textarea {
     color: #DFE1E4;
 }
 
+.study-room-box .study-room .study-name span:hover{
+    background: #2E323C;
+    cursor: help;
+    
+}
 .study-room-box .study-room .study-name .status{
     margin-right: 10px;
 }
@@ -1998,7 +2003,9 @@ textarea {
 
 .study-room-box .study-room .accordion .study-info th{
     padding: 6px;
+    padding-left: 25px;
     text-align: right;
+    font-weight: bold;
 }
 
 .room-btn-box {
