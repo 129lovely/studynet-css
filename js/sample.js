@@ -76,5 +76,3 @@ function move_left(){
     bar.classList.remove("right");
     bar.classList.add("left");
 }
-
-// 마이페이지 스터디 리스트 아코디언
