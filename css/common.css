@@ -1907,7 +1907,7 @@ textarea {
 
 .mypage-studyroom .line-bottom {
     padding: 5px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .mypage-studyroom .section-title {
@@ -1945,59 +1945,6 @@ textarea {
     margin-left: 210px;
     margin-right: 60px;
 }
-
-/*
-//----------------------------------------------------------------------------------
-//
-// [user] 페이지 설명
-//
-//----------------------------------------------------------------------------------
-*/
-.section-discription.my-study-room-info{
-    cursor: help;
-    margin-bottom: 155px;
-
-}
-
-.section-discription.my-study-room-info:hover{
-    color: #FFC267;
-}
-.info_content {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.info_content:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.info_content > div {
-	position: absolute;
-	top: 25%;
-	left: 15%;
-	width: 70%;
-	height: 50%;
-	padding: 16px;
-    border: 16px solid #FFC267;
-    border-radius: 5px;
-	background-color: #eef3fa;
-    overflow: auto;	
-    text-align: center;
-}
-
-.info_content > div > p {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
 
 /*
 //----------------------------------------------------------------------------------
