@@ -68,9 +68,13 @@ function initSummernote(){
 function move_right(){
     var bar = document.getElementById("bar");
     bar.classList.add("right");
+    bar.classList.remove("left");
 }
 
 function move_left(){
     var bar = document.getElementById("bar");
     bar.classList.remove("right");
+    bar.classList.add("left");
 }
+
+// 마이페이지 스터디 리스트 아코디언
