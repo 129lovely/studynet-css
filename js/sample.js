@@ -38,5 +38,10 @@ function createReCommentBox(btn) {
     //	<textarea></textarea>
     //	<a href="#">대댓글<br/>달기</a>
     //</div>
+}
 
+function move_left(){
+    var bar = document.getElementById("bar");
+    bar.classList.remove("right");
+    bar.classList.add("left");
 }
