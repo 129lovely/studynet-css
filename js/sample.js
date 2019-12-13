@@ -45,3 +45,9 @@ function move_left(){
     bar.classList.remove("right");
     bar.classList.add("left");
 }
+
+function move_right(){
+    var bar = document.getElementById("bar");
+    bar.classList.remove("left");
+    bar.classList.add("right");
+}
